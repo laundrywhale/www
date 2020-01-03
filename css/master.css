@@ -1,0 +1,45 @@
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding:60px 15px 0;
+}
+.container .text-muted {
+  margin:20px 0;
+}
+.footer > .container {
+  padding-right:15px;
+  padding-left:15px;
+}
+code {
+  font-size:80%;
+}
+.form-group.required label:after {
+  content:" *";
+  color:red;
+}
+.top-buffer {
+  margin-top:10px;
+}
+
+/* Sticky footer method
+-------------------------------------------------- */
+.footer.navbar-default.navbar-fixed-bottom {
+  background-color:#f8f8f8;
+  border-top:1px #e7e7e7 solid;
+  padding:1em 0;
+ }
+.footer.navbar-default.navbar-fixed-bottom p {
+  margin:0;
+}
+body {
+  padding-bottom:60px;
+  /*padding behind bottom navbar to allow for scroll*/
+}
+
+/* Responsive table styles
+-------------------------------------------------- */
+@-moz-document url-prefix() {
+  fieldset { display:table-cell; }
+}
